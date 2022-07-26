@@ -28,6 +28,7 @@ function generateComponent(fileName: string) {
   fileContents = fileContents
     .replaceAll(/<\/?svg.*>/g, '')
     .replaceAll(/^.*<\?xml.*?\>/g, '')
+    .replaceAll(/clip\-rule/g, 'clipRule')
     .replaceAll(/fill\-rule/g, 'fillRule')
     .replaceAll(/stroke-linecap/g, 'strokeLinecap')
     .replaceAll(/stroke-linejoin/g, 'strokeLinejoin')
