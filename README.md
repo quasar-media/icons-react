@@ -10,13 +10,13 @@ Quasar's Icon System exported as usable React functional components.
 yarn add @quasar-media/icons-react
 ```
 
-# Getting started
+## Getting started
 
-## Development
+### Development
 
 1. Add your new icons to the `src/assets` folder.
 2. `yarn build`
 
-## Production
+### Production
 
 Once changes are complete you can publish a working version of the package from `dist/`
