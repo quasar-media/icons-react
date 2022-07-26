@@ -14,13 +14,17 @@
     "url": "https://github.com/quasar-media/icons-react"
   },
   "scripts": {
-    "build": "ts-node ./src/compile.ts"
+    "build": "ts-node ./src/compile.ts",
+    "lint": "prettier -c src/**/*",
+    "typecheck": "yarn tsc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/fs-extra": "^9.0.13",
     "@types/prettier": "^2.6.3",
     "esbuild": "^0.14.50",
     "fs-extra": "^10.1.0",
+    "husky-init": "^8.0.0",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "ts-node": "^10.9.1",
