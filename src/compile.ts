@@ -40,7 +40,11 @@ import React from "react"
 import QuasarIcon from "../types"
 
 const ${generatedFileName}: React.FC<QuasarIcon> = ({ size }: QuasarIcon) => {
-  return <svg width=\{\`\$\{size ?? 24\}\`\} height=\{\`\$\{size ?? 24\}\`\} viewBox=\{\`0 0 24 24\`\}>${fileContents}</svg>
+  return <svg
+    width=\{\`\$\{size ?? 24\}\`\}
+    height=\{\`\$\{size ?? 24\}\`\}
+    viewBox=\{\`0 0 24 24\`\}
+    fill="none">${fileContents}</svg>
 }
 
 export default ${generatedFileName}
