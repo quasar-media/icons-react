@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "ts-node ./src/compile.ts",
-    "lint": "prettier -c src/**/*",
+    "lint": "prettier -c 'src/**/*.{ts,tsx}'",
     "typecheck": "yarn tsc",
     "prepare": "husky install"
   },
