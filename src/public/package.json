@@ -1,0 +1,22 @@
+{
+  "name": "@quasar-media/icons-react",
+  "version": "1.0.4",
+  "description": "An icon-set for react-related Quasar projects",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "url": "https://github.com/quasar-media/icons-react"
+  },
+  "dependencies": {},
+  "prettier": {
+    "parser": "babel",
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "semi": false,
+    "tabWidth": 2,
+    "printWidth": 80,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "trailingComma": "es5",
+    "endOfLine": "auto"
+  }
+}

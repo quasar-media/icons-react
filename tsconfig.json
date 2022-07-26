@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strictNullChecks": true,
+    "target": "es2021",
+    "outDir": "dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "lib": ["es2021", "dom"],
+    "rootDir": "src",
+    "jsx": "react-jsx",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "src/stories"]
+}
