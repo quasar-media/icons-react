@@ -1,7 +1,8 @@
 # icons-react
 
-[![](https://badgen.now.sh/npm/v/@quasar-media/icons-react)](https://npmjs.org/package/@quasar-media/icons-react)
-[![install size](https://packagephobia.com/badge?p=@quasar-media/icons-react)](https://packagephobia.com/result?p=@quasar-media/icons-react)
+[![Build Status](https://github.com/quasar-media/luma/actions/workflows/test-build.yml/badge.svg)](https://github.com/quasar-media/luma/actions/workflows/test-build.yml/badge.svg)
+[![Package Version](https://badgen.now.sh/npm/v/@quasar-media/icons-react)](https://npmjs.org/package/@quasar-media/icons-react)
+[![Install Size](https://packagephobia.com/badge?p=@quasar-media/icons-react)](https://packagephobia.com/result?p=@quasar-media/icons-react)
 
 Quasar's Icon System exported as usable React functional components.
 
